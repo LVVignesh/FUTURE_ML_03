@@ -35,11 +35,12 @@ The Dialogflow agent includes all required components — dedicated support flow
 
 🗂️ Intents Overview
 Intent Name	Purpose	Key Implementation Details
-Track_Order_Status	Primary Support Flow	Uses a Required Prompt and @sys.number-integer entity to gather the Order ID.
-Request_Refund	Secondary Support Flow	Uses @sys.any entity with a Required Prompt to capture the specific refund reason.
-FAQ_General	General Information	Handles multiple static responses for business-related FAQs.
-Speak_To_Agent	Escalation Path	Provides a simple fulfillment response for human agent transfer.
-Default Fallback Intent	Smart Fallback Handling	Customized to guide users toward specific services when an intent is not matched.
+
+Track_Order_Status :	Primary Support Flow	Uses a Required Prompt and @sys.number-integer entity to gather the Order ID.
+Request_Refund : Secondary Support Flow	Uses @sys.any entity with a Required Prompt to capture the specific refund reason.
+FAQ_General	: General Information	Handles multiple static responses for business-related FAQs.
+Speak_To_Agent :	Escalation Path	Provides a simple fulfillment response for human agent transfer.
+Default Fallback Intent :	Smart Fallback Handling	Customized to guide users toward specific services when an intent is not matched.
 
 🖼️ Visual Proof (Screenshots)
 
